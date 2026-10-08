@@ -1,8 +1,6 @@
-/**
- * Misión 2: La caja sellada.
- * T debe implementar Comparable<T>, por eso no compila con clases
- * que no sean comparables.
- */
+
+//Misión 2: La caja sellada.
+
 public class Caja<T extends Comparable<T>> {
     private final Object[] elementos;
     private int cantidad;
